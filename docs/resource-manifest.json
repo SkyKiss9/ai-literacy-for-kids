@@ -1,7 +1,7 @@
 {
   "project": "ai-literacy-for-kids",
   "description": "Bilingual open-source AI literacy curriculum for children ages 7-12.",
-  "resourceCount": 52,
+  "resourceCount": 58,
   "resources": [
     {
       "path": "curriculum/00-course-outline.md",
@@ -242,6 +242,34 @@
       "pairPath": "guides/lesson-06-teacher-packet.md"
     },
     {
+      "path": "guides/lesson-07-teacher-packet.md",
+      "kind": "guide",
+      "language": "en",
+      "title": "Lesson 7 Teacher Packet",
+      "pairPath": "guides/lesson-07-teacher-packet.zh-CN.md"
+    },
+    {
+      "path": "guides/lesson-07-teacher-packet.zh-CN.md",
+      "kind": "guide",
+      "language": "zh-CN",
+      "title": "第七课教师包",
+      "pairPath": "guides/lesson-07-teacher-packet.md"
+    },
+    {
+      "path": "guides/lesson-08-teacher-packet.md",
+      "kind": "guide",
+      "language": "en",
+      "title": "Lesson 8 Teacher Packet",
+      "pairPath": "guides/lesson-08-teacher-packet.zh-CN.md"
+    },
+    {
+      "path": "guides/lesson-08-teacher-packet.zh-CN.md",
+      "kind": "guide",
+      "language": "zh-CN",
+      "title": "第八课教师包",
+      "pairPath": "guides/lesson-08-teacher-packet.md"
+    },
+    {
       "path": "guides/parent-guide.md",
       "kind": "guide",
       "language": "en",
@@ -310,6 +338,20 @@
       "language": "zh-CN",
       "title": "练习纸：核对 AI 的答案",
       "pairPath": "worksheets/checking-ai-answers.md"
+    },
+    {
+      "path": "worksheets/evidence-checking.md",
+      "kind": "worksheet",
+      "language": "en",
+      "title": "Worksheet: Evidence Checking",
+      "pairPath": "worksheets/evidence-checking.zh-CN.md"
+    },
+    {
+      "path": "worksheets/evidence-checking.zh-CN.md",
+      "kind": "worksheet",
+      "language": "zh-CN",
+      "title": "练习纸：证据核对",
+      "pairPath": "worksheets/evidence-checking.md"
     },
     {
       "path": "worksheets/my-ai-safety-rules.md",
