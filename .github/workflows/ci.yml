@@ -1,0 +1,28 @@
+name: repository-checks
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Validate repository structure and links
+        run: node scripts/check-repo.mjs
+
+      - name: Rebuild resource manifest
+        run: node scripts/build-resource-manifest.mjs
+
+      - name: Ensure generated manifest is committed
+        run: git diff --exit-code docs/resource-manifest.json

@@ -1,0 +1,26 @@
+name: Safety review
+description: Report wording or workflow that may be unsafe for children.
+title: "[Safety] "
+labels:
+  - safety
+body:
+  - type: input
+    id: file
+    attributes:
+      label: Affected file
+      placeholder: guides/child-ai-safety.md
+    validations:
+      required: true
+  - type: textarea
+    id: risk
+    attributes:
+      label: Risk description
+      description: Explain why the current wording or activity may be unsafe.
+    validations:
+      required: true
+  - type: textarea
+    id: suggested_fix
+    attributes:
+      label: Suggested safer wording or fix
+    validations:
+      required: false

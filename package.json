@@ -1,0 +1,15 @@
+{
+  "name": "ai-literacy-for-kids",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Maintenance tooling for the AI Literacy for Kids open-source repository.",
+  "type": "module",
+  "scripts": {
+    "check": "node scripts/check-repo.mjs",
+    "build:manifest": "node scripts/build-resource-manifest.mjs",
+    "verify": "node scripts/check-repo.mjs && node scripts/build-resource-manifest.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

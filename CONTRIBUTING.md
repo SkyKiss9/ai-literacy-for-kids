@@ -1,44 +1,70 @@
 # Contributing
 
-Thank you for helping improve open AI literacy education for children.
+Thank you for helping improve public-interest AI literacy materials for children.
 
-## Contribution Areas
+## What We Need Help With
 
-Good first contributions include:
+Useful contributions include:
 
-- Fix unclear language in lessons
-- Add examples that are easier for children to understand
-- Translate English content into Chinese or Chinese content into English
-- Create worksheets or classroom activities
-- Review safety guidance from a teacher or parent perspective
-- Share feedback from real classroom or home use
+- improving lesson clarity
+- translating English and Chinese materials
+- adding classroom activities
+- reviewing wording for child safety risks
+- sharing educator or parent feedback
+- fixing broken links, file mismatches, or repository structure issues
 
-## Content Standards
+## Contribution Principles
 
-Materials should be:
+All content should be:
 
-- Age-appropriate for elementary school students
-- Practical for teachers and parents
-- Clear enough to use without technical background
-- Careful about privacy, safety, and overreliance on AI
-- Respectful of different learning speeds and backgrounds
+- age-appropriate for children ages 7-12
+- usable by non-technical adults
+- honest about AI limitations
+- careful with privacy and safety
+- respectful of different classroom, family, and cultural contexts
 
-## Safety Rules For Contributors
+## Things We Do Not Accept
 
-Do not add:
+Do not add content that:
 
-- Content that asks children to share private personal information
-- Prompts that encourage children to bypass adult supervision
-- Medical, legal, financial, or mental-health advice for children
-- Content that presents AI as always correct
-- Content that replaces teacher, parent, or caregiver judgment
+- encourages children to share private information
+- presents AI as always correct
+- replaces parent, teacher, or caregiver judgment
+- offers medical, legal, financial, or mental-health advice for children
+- normalizes unsafe unsupervised AI use
+- encourages plagiarism or copy-paste learning
 
-## Suggested Pull Request Format
+## Repository Workflow
+
+1. Make your change in the relevant English or Chinese source file.
+2. Run `node scripts/check-repo.mjs`.
+3. Run `node scripts/build-resource-manifest.mjs`.
+4. If you changed only one language, note the missing translation follow-up in the PR.
+5. Open a pull request using the repository template.
+
+## Translation Rules
+
+- Keep file pairs aligned where possible.
+- Prefer plain, direct language over literal translation.
+- If a concept does not translate naturally, preserve the teaching intent rather than the exact sentence shape.
+- Flag culturally sensitive wording for review instead of guessing.
+
+## Safety Review Expectations
+
+Changes in these areas should receive extra review:
+
+- privacy examples
+- child safety rules
+- prompts shown to children
+- parent/teacher supervision guidance
+- claims about what AI can reliably do
+
+## Pull Request Checklist
 
 Please include:
 
-- What changed
-- Who the change helps
-- Whether it was tested with students, teachers, or parents
-- Any safety concerns reviewers should consider
-
+- what changed
+- who the change helps
+- whether the change affects English, Chinese, or both
+- whether the change has child-safety implications
+- any follow-up needed before classroom use

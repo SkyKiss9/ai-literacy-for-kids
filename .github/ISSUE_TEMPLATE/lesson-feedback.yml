@@ -1,0 +1,47 @@
+name: Lesson feedback
+description: Report classroom, parent, or reviewer feedback on a lesson.
+title: "[Lesson feedback] "
+labels:
+  - feedback
+body:
+  - type: input
+    id: lesson
+    attributes:
+      label: Lesson or file
+      description: Which lesson or guide does this feedback affect?
+      placeholder: curriculum/03-asking-better-questions.md
+    validations:
+      required: true
+  - type: dropdown
+    id: reporter
+    attributes:
+      label: Reporter role
+      options:
+        - Teacher
+        - Parent
+        - Translator
+        - Maintainer
+        - Reviewer
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: worked
+    attributes:
+      label: What worked?
+      description: Which part was clear or useful?
+    validations:
+      required: true
+  - type: textarea
+    id: confusing
+    attributes:
+      label: What was confusing or weak?
+    validations:
+      required: true
+  - type: textarea
+    id: safety
+    attributes:
+      label: Any child-safety concern?
+      description: Note privacy, supervision, overreliance, or misleading AI behavior concerns.
+    validations:
+      required: false

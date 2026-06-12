@@ -1,0 +1,203 @@
+{
+  "project": "ai-literacy-for-kids",
+  "description": "Bilingual open-source AI literacy curriculum for children ages 7-12.",
+  "resourceCount": 28,
+  "resources": [
+    {
+      "path": "curriculum/00-course-outline.md",
+      "kind": "course-outline",
+      "language": "en",
+      "title": "Course Outline",
+      "pairPath": "curriculum/00-course-outline.zh-CN.md"
+    },
+    {
+      "path": "curriculum/00-course-outline.zh-CN.md",
+      "kind": "course-outline",
+      "language": "zh-CN",
+      "title": "课程目录",
+      "pairPath": "curriculum/00-course-outline.md"
+    },
+    {
+      "path": "curriculum/01-what-is-ai.md",
+      "kind": "lesson",
+      "language": "en",
+      "title": "Lesson 1: What Is AI?",
+      "pairPath": "curriculum/01-what-is-ai.zh-CN.md"
+    },
+    {
+      "path": "curriculum/01-what-is-ai.zh-CN.md",
+      "kind": "lesson",
+      "language": "zh-CN",
+      "title": "第一课：什么是 AI？",
+      "pairPath": "curriculum/01-what-is-ai.md"
+    },
+    {
+      "path": "curriculum/02-ai-can-help-but-it-can-be-wrong.md",
+      "kind": "lesson",
+      "language": "en",
+      "title": "Lesson 2: AI Can Help, But It Can Be Wrong",
+      "pairPath": "curriculum/02-ai-can-help-but-it-can-be-wrong.zh-CN.md"
+    },
+    {
+      "path": "curriculum/02-ai-can-help-but-it-can-be-wrong.zh-CN.md",
+      "kind": "lesson",
+      "language": "zh-CN",
+      "title": "第 2 课：AI 能帮忙，但也可能出错",
+      "pairPath": "curriculum/02-ai-can-help-but-it-can-be-wrong.md"
+    },
+    {
+      "path": "curriculum/03-asking-better-questions.md",
+      "kind": "lesson",
+      "language": "en",
+      "title": "Lesson 3: Asking Better Questions",
+      "pairPath": "curriculum/03-asking-better-questions.zh-CN.md"
+    },
+    {
+      "path": "curriculum/03-asking-better-questions.zh-CN.md",
+      "kind": "lesson",
+      "language": "zh-CN",
+      "title": "第 3 课：提出更好的问题",
+      "pairPath": "curriculum/03-asking-better-questions.md"
+    },
+    {
+      "path": "curriculum/04-reading-with-ai.md",
+      "kind": "lesson",
+      "language": "en",
+      "title": "Lesson 4: Reading With AI",
+      "pairPath": "curriculum/04-reading-with-ai.zh-CN.md"
+    },
+    {
+      "path": "curriculum/04-reading-with-ai.zh-CN.md",
+      "kind": "lesson",
+      "language": "zh-CN",
+      "title": "第 4 课：用 AI 辅助阅读",
+      "pairPath": "curriculum/04-reading-with-ai.md"
+    },
+    {
+      "path": "curriculum/05-writing-with-ai-without-copying.md",
+      "kind": "lesson",
+      "language": "en",
+      "title": "Lesson 5: Writing With AI Without Copying",
+      "pairPath": "curriculum/05-writing-with-ai-without-copying.zh-CN.md"
+    },
+    {
+      "path": "curriculum/05-writing-with-ai-without-copying.zh-CN.md",
+      "kind": "lesson",
+      "language": "zh-CN",
+      "title": "第 5 课：用 AI 辅助写作，但不照抄",
+      "pairPath": "curriculum/05-writing-with-ai-without-copying.md"
+    },
+    {
+      "path": "curriculum/06-exploring-science-questions.md",
+      "kind": "lesson",
+      "language": "en",
+      "title": "Lesson 6: Exploring Science Questions",
+      "pairPath": "curriculum/06-exploring-science-questions.zh-CN.md"
+    },
+    {
+      "path": "curriculum/06-exploring-science-questions.zh-CN.md",
+      "kind": "lesson",
+      "language": "zh-CN",
+      "title": "第 6 课：用 AI 探索科学问题",
+      "pairPath": "curriculum/06-exploring-science-questions.md"
+    },
+    {
+      "path": "curriculum/07-checking-answers-with-evidence.md",
+      "kind": "lesson",
+      "language": "en",
+      "title": "Lesson 7: Checking Answers With Evidence",
+      "pairPath": "curriculum/07-checking-answers-with-evidence.zh-CN.md"
+    },
+    {
+      "path": "curriculum/07-checking-answers-with-evidence.zh-CN.md",
+      "kind": "lesson",
+      "language": "zh-CN",
+      "title": "第 7 课：用证据核对答案",
+      "pairPath": "curriculum/07-checking-answers-with-evidence.md"
+    },
+    {
+      "path": "curriculum/08-building-my-personal-ai-safety-rules.md",
+      "kind": "lesson",
+      "language": "en",
+      "title": "Lesson 8: Building My Personal AI Safety Rules",
+      "pairPath": "curriculum/08-building-my-personal-ai-safety-rules.zh-CN.md"
+    },
+    {
+      "path": "curriculum/08-building-my-personal-ai-safety-rules.zh-CN.md",
+      "kind": "lesson",
+      "language": "zh-CN",
+      "title": "第 8 课：写下我自己的 AI 安全规则",
+      "pairPath": "curriculum/08-building-my-personal-ai-safety-rules.md"
+    },
+    {
+      "path": "guides/child-ai-safety.md",
+      "kind": "guide",
+      "language": "en",
+      "title": "Child AI Safety Guide",
+      "pairPath": "guides/child-ai-safety.zh-CN.md"
+    },
+    {
+      "path": "guides/child-ai-safety.zh-CN.md",
+      "kind": "guide",
+      "language": "zh-CN",
+      "title": "儿童 AI 安全指南",
+      "pairPath": "guides/child-ai-safety.md"
+    },
+    {
+      "path": "guides/classroom-trial-feedback-template.md",
+      "kind": "guide",
+      "language": "en",
+      "title": "Classroom Trial Feedback Template",
+      "pairPath": "guides/classroom-trial-feedback-template.zh-CN.md"
+    },
+    {
+      "path": "guides/classroom-trial-feedback-template.zh-CN.md",
+      "kind": "guide",
+      "language": "zh-CN",
+      "title": "课堂试用反馈模板",
+      "pairPath": "guides/classroom-trial-feedback-template.md"
+    },
+    {
+      "path": "guides/parent-guide.md",
+      "kind": "guide",
+      "language": "en",
+      "title": "Parent Guide",
+      "pairPath": "guides/parent-guide.zh-CN.md"
+    },
+    {
+      "path": "guides/parent-guide.zh-CN.md",
+      "kind": "guide",
+      "language": "zh-CN",
+      "title": "家长指南",
+      "pairPath": "guides/parent-guide.md"
+    },
+    {
+      "path": "guides/teacher-guide.md",
+      "kind": "guide",
+      "language": "en",
+      "title": "Teacher Guide",
+      "pairPath": "guides/teacher-guide.zh-CN.md"
+    },
+    {
+      "path": "guides/teacher-guide.zh-CN.md",
+      "kind": "guide",
+      "language": "zh-CN",
+      "title": "教师指南",
+      "pairPath": "guides/teacher-guide.md"
+    },
+    {
+      "path": "worksheets/my-ai-safety-rules.md",
+      "kind": "worksheet",
+      "language": "en",
+      "title": "Worksheet: My AI Safety Rules",
+      "pairPath": "worksheets/my-ai-safety-rules.zh-CN.md"
+    },
+    {
+      "path": "worksheets/my-ai-safety-rules.zh-CN.md",
+      "kind": "worksheet",
+      "language": "zh-CN",
+      "title": "练习纸：我的 AI 安全规则",
+      "pairPath": "worksheets/my-ai-safety-rules.md"
+    }
+  ]
+}
