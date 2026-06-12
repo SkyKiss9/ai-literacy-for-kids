@@ -59,6 +59,8 @@ The current milestone is a complete public starter kit that another educator can
 - [x] Lesson 4 teacher packet
 - [x] Lesson 5 teacher packet
 - [x] Lesson 6 teacher packet
+- [x] Lesson 7 teacher packet
+- [x] Lesson 8 teacher packet
 - [x] English and Chinese source files
 - [x] Repository validation and CI
 - [x] GitHub Pages entry docs

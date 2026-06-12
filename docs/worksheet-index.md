@@ -12,7 +12,7 @@ This index groups printable resources by lesson and teaching purpose.
 | 4 | `worksheets/reading-with-ai.md` | compare original text with AI explanation |
 | 5 | `worksheets/writing-with-ai.md` | keep student ownership in AI-assisted writing |
 | 6 | `worksheets/science-questions.md` | connect AI explanation to observation and testing |
-| 7 | pending | evidence-checking support still needed |
+| 7 | `worksheets/evidence-checking.md` | compare AI answers with stronger evidence |
 | 8 | `worksheets/my-ai-safety-rules.md` | final personal safety rules |
 
 ## Chinese Versions
