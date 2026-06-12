@@ -22,11 +22,13 @@ The goal is not to make children dependent on AI. The goal is to teach them:
 
 - An 8-lesson starter curriculum
 - Teacher and parent guides
+- A teacher starter pack for first classroom trials
 - Child AI safety rules
 - Printable worksheets
 - A classroom trial feedback template
 - Bilingual English and Simplified Chinese content
 - Maintainer documentation, validation scripts, and CI checks
+- GitHub Pages entry documents for teacher-facing navigation
 
 ## Repository Structure
 
@@ -34,9 +36,10 @@ The goal is not to make children dependent on AI. The goal is to teach them:
 curriculum/   lesson plans and course outline
 guides/       teacher, parent, safety, and feedback guides
 worksheets/   printable reflection and safety activities
-docs/         roadmap, application notes, generated manifest
+docs/         roadmap, Pages entry docs, pilot notes, generated manifest
 scripts/      repository validation and manifest generation
 .github/      CI workflow, issue templates, PR template
+PROJECT.md    living maintainer state and next steps
 ```
 
 ## Current Milestone
@@ -49,18 +52,29 @@ The current milestone is a complete public starter kit that another educator can
 - [x] Parent guide
 - [x] Safety rules
 - [x] Feedback template
+- [x] Teacher starter pack
+- [x] Lesson 1 teacher packet
+- [x] Lesson 2 teacher packet
+- [x] Lesson 3 teacher packet
+- [x] Lesson 4 teacher packet
+- [x] Lesson 5 teacher packet
+- [x] Lesson 6 teacher packet
 - [x] English and Chinese source files
 - [x] Repository validation and CI
+- [x] GitHub Pages entry docs
 - [ ] Classroom pilot feedback from real use
 
 ## How To Use
 
 ### For teachers
 
-1. Read [guides/teacher-guide.md](guides/teacher-guide.md).
+1. Read [guides/teacher-starter-pack.md](guides/teacher-starter-pack.md).
 2. Start with [curriculum/00-course-outline.md](curriculum/00-course-outline.md).
-3. Run one lesson with adult-controlled AI access.
-4. Capture what worked with [guides/classroom-trial-feedback-template.md](guides/classroom-trial-feedback-template.md).
+3. If starting from Lesson 1, use [guides/lesson-01-teacher-packet.md](guides/lesson-01-teacher-packet.md).
+4. If starting from Lesson 2, use [guides/lesson-02-teacher-packet.md](guides/lesson-02-teacher-packet.md).
+5. Use the Pages entry layer at [docs/index.md](docs/index.md) for a simpler teacher-facing navigation view.
+6. Validate readiness with [docs/pilot-checklist.md](docs/pilot-checklist.md).
+7. Capture what worked with [guides/classroom-trial-feedback-template.md](guides/classroom-trial-feedback-template.md).
 
 ### For parents
 
@@ -72,6 +86,10 @@ The current milestone is a complete public starter kit that another educator can
 ### For contributors
 
 See [CONTRIBUTING.md](CONTRIBUTING.md) for contribution flow, translation rules, and safety review expectations.
+
+### For maintainers
+
+Use [PROJECT.md](PROJECT.md) as the single living handoff file. Use `git` history for detailed change tracking. Store real-world testing evidence under [docs/pilot-notes/README.md](docs/pilot-notes/README.md).
 
 ## Maintenance Workflow
 

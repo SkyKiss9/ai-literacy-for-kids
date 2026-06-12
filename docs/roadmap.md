@@ -30,6 +30,8 @@ Planned additions:
 - classroom timing notes based on real use
 - feedback summaries from teachers and parents
 - child-safe prompt examples for reading, writing, and science
+- a lightweight teacher starter workflow for first pilots
+- markdown-based GitHub Pages teacher entry layer
 
 Success signals:
 
@@ -45,6 +47,7 @@ Planned additions:
 - release notes for curriculum updates
 - educator onboarding checklist
 - downloadable teacher packet exports
+- structured GitHub Discussions for pilots, questions, translation, and ideas
 
 Success signals:
 

@@ -2,7 +2,7 @@
 
 [English README](README.md)
 
-儿童 AI 素养课程是一个开源的双语项目，面向 7-12 岁儿童，帮助老师、家长和教育志愿者用安全、审慎、负责任的方式开展 AI 启蒙教育。
+儿童 AI 素养课程是一个开源双语项目，面向 7-12 岁儿童，帮助老师、家长和教育志愿者用安全、审慎、负责任的方式开展 AI 启蒙教育。
 
 这个仓库不是泛泛而谈的“AI 很重要”，而是一套可维护、可复用、可公开协作的教学材料。
 
@@ -23,11 +23,13 @@
 - 8 节入门课程
 - 教师使用指南
 - 家长使用指南
+- 教师快速启动包
 - 儿童 AI 安全规则
 - 可打印练习纸
 - 课堂试用反馈模板
 - 中英文双语内容
 - 维护文档、校验脚本和 CI 流程
+- 面向老师入口的 GitHub Pages 页面
 
 ## 仓库结构
 
@@ -35,9 +37,10 @@
 curriculum/   课程与总纲
 guides/       教师、家长、安全与反馈指南
 worksheets/   可打印练习纸
-docs/         路线图、申请说明、生成清单
+docs/         路线图、Pages 页面、试点记录、申请说明、生成清单
 scripts/      仓库校验与清单生成脚本
 .github/      CI、Issue 模板、PR 模板
+PROJECT.md    唯一持续维护的交接状态文件
 ```
 
 ## 当前阶段
@@ -50,18 +53,29 @@ scripts/      仓库校验与清单生成脚本
 - [x] 家长指南
 - [x] 安全规则
 - [x] 反馈模板
+- [x] 教师快速启动包
+- [x] 第一课教师包
+- [x] 第二课教师包
+- [x] 第三课教师包
+- [x] 第四课教师包
+- [x] 第五课教师包
+- [x] 第六课教师包
 - [x] 中英文源文件
 - [x] 仓库校验与 CI
+- [x] GitHub Pages 入口文档
 - [ ] 真实课堂或家庭试用反馈
 
 ## 如何使用
 
 ### 老师
 
-1. 先看 [guides/teacher-guide.zh-CN.md](guides/teacher-guide.zh-CN.md)
+1. 先看 [guides/teacher-starter-pack.zh-CN.md](guides/teacher-starter-pack.zh-CN.md)
 2. 再看 [curriculum/00-course-outline.zh-CN.md](curriculum/00-course-outline.zh-CN.md)
-3. 用成人控制的 AI 账号带孩子试一节课
-4. 用 [guides/classroom-trial-feedback-template.zh-CN.md](guides/classroom-trial-feedback-template.zh-CN.md) 记录反馈
+3. 如果从第一课开始，直接用 [guides/lesson-01-teacher-packet.zh-CN.md](guides/lesson-01-teacher-packet.zh-CN.md)
+4. 如果从第二课开始，直接用 [guides/lesson-02-teacher-packet.zh-CN.md](guides/lesson-02-teacher-packet.zh-CN.md)
+5. 也可以通过 [docs/index.md](docs/index.md) 走老师入口式导航
+6. 用 [docs/pilot-checklist.zh-CN.md](docs/pilot-checklist.zh-CN.md) 做试点前检查
+7. 用 [guides/classroom-trial-feedback-template.zh-CN.md](guides/classroom-trial-feedback-template.zh-CN.md) 记录反馈
 
 ### 家长
 
@@ -73,6 +87,10 @@ scripts/      仓库校验与清单生成脚本
 ### 贡献者
 
 贡献方式、翻译规则和安全审查要求见 [CONTRIBUTING.md](CONTRIBUTING.md)。
+
+### 维护者
+
+把 [PROJECT.md](PROJECT.md) 当成唯一持续维护的交接文件；详细改动看 `git` 历史。真实课堂、家庭或工作坊试点证据统一放到 [docs/pilot-notes/README.md](docs/pilot-notes/README.md) 所说明的目录下。
 
 ## 维护流程
 

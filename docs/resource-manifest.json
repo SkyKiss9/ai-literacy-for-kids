@@ -1,7 +1,7 @@
 {
   "project": "ai-literacy-for-kids",
   "description": "Bilingual open-source AI literacy curriculum for children ages 7-12.",
-  "resourceCount": 28,
+  "resourceCount": 52,
   "resources": [
     {
       "path": "curriculum/00-course-outline.md",
@@ -42,7 +42,7 @@
       "path": "curriculum/02-ai-can-help-but-it-can-be-wrong.zh-CN.md",
       "kind": "lesson",
       "language": "zh-CN",
-      "title": "第 2 课：AI 能帮忙，但也可能出错",
+      "title": "第 2 课：AI 可以帮忙，但也可能出错",
       "pairPath": "curriculum/02-ai-can-help-but-it-can-be-wrong.md"
     },
     {
@@ -158,6 +158,90 @@
       "pairPath": "guides/classroom-trial-feedback-template.md"
     },
     {
+      "path": "guides/lesson-01-teacher-packet.md",
+      "kind": "guide",
+      "language": "en",
+      "title": "Lesson 1 Teacher Packet",
+      "pairPath": "guides/lesson-01-teacher-packet.zh-CN.md"
+    },
+    {
+      "path": "guides/lesson-01-teacher-packet.zh-CN.md",
+      "kind": "guide",
+      "language": "zh-CN",
+      "title": "第一课教师包",
+      "pairPath": "guides/lesson-01-teacher-packet.md"
+    },
+    {
+      "path": "guides/lesson-02-teacher-packet.md",
+      "kind": "guide",
+      "language": "en",
+      "title": "Lesson 2 Teacher Packet",
+      "pairPath": "guides/lesson-02-teacher-packet.zh-CN.md"
+    },
+    {
+      "path": "guides/lesson-02-teacher-packet.zh-CN.md",
+      "kind": "guide",
+      "language": "zh-CN",
+      "title": "第二课教师包",
+      "pairPath": "guides/lesson-02-teacher-packet.md"
+    },
+    {
+      "path": "guides/lesson-03-teacher-packet.md",
+      "kind": "guide",
+      "language": "en",
+      "title": "Lesson 3 Teacher Packet",
+      "pairPath": "guides/lesson-03-teacher-packet.zh-CN.md"
+    },
+    {
+      "path": "guides/lesson-03-teacher-packet.zh-CN.md",
+      "kind": "guide",
+      "language": "zh-CN",
+      "title": "第三课教师包",
+      "pairPath": "guides/lesson-03-teacher-packet.md"
+    },
+    {
+      "path": "guides/lesson-04-teacher-packet.md",
+      "kind": "guide",
+      "language": "en",
+      "title": "Lesson 4 Teacher Packet",
+      "pairPath": "guides/lesson-04-teacher-packet.zh-CN.md"
+    },
+    {
+      "path": "guides/lesson-04-teacher-packet.zh-CN.md",
+      "kind": "guide",
+      "language": "zh-CN",
+      "title": "第四课教师包",
+      "pairPath": "guides/lesson-04-teacher-packet.md"
+    },
+    {
+      "path": "guides/lesson-05-teacher-packet.md",
+      "kind": "guide",
+      "language": "en",
+      "title": "Lesson 5 Teacher Packet",
+      "pairPath": "guides/lesson-05-teacher-packet.zh-CN.md"
+    },
+    {
+      "path": "guides/lesson-05-teacher-packet.zh-CN.md",
+      "kind": "guide",
+      "language": "zh-CN",
+      "title": "第五课教师包",
+      "pairPath": "guides/lesson-05-teacher-packet.md"
+    },
+    {
+      "path": "guides/lesson-06-teacher-packet.md",
+      "kind": "guide",
+      "language": "en",
+      "title": "Lesson 6 Teacher Packet",
+      "pairPath": "guides/lesson-06-teacher-packet.zh-CN.md"
+    },
+    {
+      "path": "guides/lesson-06-teacher-packet.zh-CN.md",
+      "kind": "guide",
+      "language": "zh-CN",
+      "title": "第六课教师包",
+      "pairPath": "guides/lesson-06-teacher-packet.md"
+    },
+    {
       "path": "guides/parent-guide.md",
       "kind": "guide",
       "language": "en",
@@ -186,6 +270,48 @@
       "pairPath": "guides/teacher-guide.md"
     },
     {
+      "path": "guides/teacher-starter-pack.md",
+      "kind": "guide",
+      "language": "en",
+      "title": "Teacher Starter Pack",
+      "pairPath": "guides/teacher-starter-pack.zh-CN.md"
+    },
+    {
+      "path": "guides/teacher-starter-pack.zh-CN.md",
+      "kind": "guide",
+      "language": "zh-CN",
+      "title": "教师快速启动包",
+      "pairPath": "guides/teacher-starter-pack.md"
+    },
+    {
+      "path": "worksheets/better-questions.md",
+      "kind": "worksheet",
+      "language": "en",
+      "title": "Worksheet: Better Questions",
+      "pairPath": "worksheets/better-questions.zh-CN.md"
+    },
+    {
+      "path": "worksheets/better-questions.zh-CN.md",
+      "kind": "worksheet",
+      "language": "zh-CN",
+      "title": "练习纸：更好的问题",
+      "pairPath": "worksheets/better-questions.md"
+    },
+    {
+      "path": "worksheets/checking-ai-answers.md",
+      "kind": "worksheet",
+      "language": "en",
+      "title": "Worksheet: Checking AI Answers",
+      "pairPath": "worksheets/checking-ai-answers.zh-CN.md"
+    },
+    {
+      "path": "worksheets/checking-ai-answers.zh-CN.md",
+      "kind": "worksheet",
+      "language": "zh-CN",
+      "title": "练习纸：核对 AI 的答案",
+      "pairPath": "worksheets/checking-ai-answers.md"
+    },
+    {
       "path": "worksheets/my-ai-safety-rules.md",
       "kind": "worksheet",
       "language": "en",
@@ -198,6 +324,48 @@
       "language": "zh-CN",
       "title": "练习纸：我的 AI 安全规则",
       "pairPath": "worksheets/my-ai-safety-rules.md"
+    },
+    {
+      "path": "worksheets/reading-with-ai.md",
+      "kind": "worksheet",
+      "language": "en",
+      "title": "Worksheet: Reading With AI",
+      "pairPath": "worksheets/reading-with-ai.zh-CN.md"
+    },
+    {
+      "path": "worksheets/reading-with-ai.zh-CN.md",
+      "kind": "worksheet",
+      "language": "zh-CN",
+      "title": "练习纸：用 AI 辅助阅读",
+      "pairPath": "worksheets/reading-with-ai.md"
+    },
+    {
+      "path": "worksheets/science-questions.md",
+      "kind": "worksheet",
+      "language": "en",
+      "title": "Worksheet: Science Questions",
+      "pairPath": "worksheets/science-questions.zh-CN.md"
+    },
+    {
+      "path": "worksheets/science-questions.zh-CN.md",
+      "kind": "worksheet",
+      "language": "zh-CN",
+      "title": "练习纸：科学问题",
+      "pairPath": "worksheets/science-questions.md"
+    },
+    {
+      "path": "worksheets/writing-with-ai.md",
+      "kind": "worksheet",
+      "language": "en",
+      "title": "Worksheet: Writing With AI",
+      "pairPath": "worksheets/writing-with-ai.zh-CN.md"
+    },
+    {
+      "path": "worksheets/writing-with-ai.zh-CN.md",
+      "kind": "worksheet",
+      "language": "zh-CN",
+      "title": "练习纸：用 AI 辅助写作",
+      "pairPath": "worksheets/writing-with-ai.md"
     }
   ]
 }
